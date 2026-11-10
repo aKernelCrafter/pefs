@@ -72,16 +72,9 @@
 
     <div class="hero-content">
       <p class="hero-eyebrow">Provincial Employees Fitness Society</p>
-      <h1>Stronger.<br>Together.</h1>
-      <p class="hero-sub">
-        PEFS promotes fitness and wellness activities for BC provincial employees
-        through education, communication, and programs.
-      </p>
-      <p class="hero-new">
-        <strong>New!</strong> Provincial employees can now choose
-        <strong>Membership</strong> or <strong>Pay Per Use</strong> options.
-        See Membership below or visit our booking site.
-      </p>
+      <h1 id="cms-hero-title">Stronger.<br>Together.</h1>
+      <p class="hero-sub" id="cms-hero-text"></p>
+      <p class="hero-new" id="cms-announcement"></p>
       <div class="hero-actions">
         <a href="https://app.acuityscheduling.com/schedule.php?owner=19818459"
            class="btn btn-primary"
@@ -106,21 +99,7 @@
         <h2 id="about-title">About PEFS</h2>
       </div>
       <div class="section-body">
-        <p>
-          The <strong>Canadian Physical Activity Guidelines</strong> state that adults aged 18–64 should
-          accumulate at least <strong>150 minutes of moderate- to vigorous-intensity aerobic physical
-          activity per week</strong> to start looking and feeling healthier.
-        </p>
-        <p>
-          PEFS is here to help you get there. Our goal is to <strong>promote fitness and wellness
-          activities for members through education, communication, and programs</strong>. We offer a
-          variety of classes and fitness centre options that fit into your lunch hour or right after work.
-        </p>
-        <p>
-          The Provincial Employees (Victoria) Fitness Society is a <strong>non-profit organization</strong>
-          established under the Society Act in <strong>April 1997</strong>. The Society is managed by a
-          volunteer <strong>Board of Directors</strong>.
-        </p>
+        <div id="cms-about"></div>
         <p>
           PEFS contracts the day-to-day management of its facilities and programming to
           <strong>All About Fitness Ltd.</strong> This includes the fitness centres at
@@ -133,7 +112,7 @@
         </p>
         <p>
           For general information contact <strong>Donna Renaud, PEFS Manager</strong> at
-          <a href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>.
+          <a data-cms-email="contact_email" href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>.
         </p>
       </div>
     </div>
@@ -206,18 +185,7 @@
         <h3>Usage Membership Options (Payroll Deduction)</h3>
         <p>Membership fees are processed via payroll deduction and provide ongoing access to PEFS facilities and classes.</p>
 
-        <div class="membership-grid">
-          <div class="membership-card">
-            <h4>Full Membership — Facilities &amp; Classes</h4>
-            <div class="membership-price">~$20.98 <small style="font-size:1rem;font-weight:400;color:#888;">biweekly</small></div>
-            <p>$19.98 biweekly plus taxes. Includes access to any/all PEFS facilities and <strong>unlimited access</strong> to scheduled studio classes at <strong>1515 Blanshard</strong>.</p>
-          </div>
-          <div class="membership-card">
-            <h4>Equipment-Use — 4000 Seymour</h4>
-            <div class="membership-price">~$16.78 <small style="font-size:1rem;font-weight:400;color:#888;">biweekly</small></div>
-            <p>$15.98 biweekly plus taxes. Includes access to <strong>4000 Seymour</strong> for equipment use only (classes not included).</p>
-          </div>
-        </div>
+        <div class="membership-grid" id="cms-memberships"></div>
 
         <h3>Registered Drop-In / Pay Per Use</h3>
         <ul>
@@ -336,7 +304,7 @@
         <p>
           Forms are available through PEFS centres and internal resources.
           If you're unsure, email
-          <a href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a> for guidance.
+          <a data-cms-email="contact_email" href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a> for guidance.
         </p>
 
         <h3>For Pay-Per-Use / Drop-In</h3>
@@ -368,23 +336,16 @@
           The Board provides governance and strategic direction and represents the interests of members.
         </p>
 
-        <h3>2024/2025 Board of Directors</h3>
-        <ul class="board-list">
-          <li><span>Darcy Dragseth</span><span class="role">Chair</span></li>
-          <li><span>Charles Middleton</span><span class="role">Treasurer</span></li>
-          <li><span>Susanna Francis</span><span class="role">Secretary</span></li>
-          <li><span>Gary Merrick</span><span class="role">Director</span></li>
-          <li><span>Wanda Kelley</span><span class="role">Director</span></li>
-          <li><span>Margaret Case</span><span class="role">Director</span></li>
-        </ul>
+        <h3 id="cms-board-year">Board of Directors</h3>
+        <ul class="board-list" id="cms-board"></ul>
 
         <p>
           For issues or concerns you wish the Board to address, contact the Board Chair:
-          <a href="mailto:darcy.dragseth@gov.bc.ca">darcy.dragseth@gov.bc.ca</a>.
+          <a data-cms-email="board_email" href="mailto:darcy.dragseth@gov.bc.ca">darcy.dragseth@gov.bc.ca</a>.
         </p>
         <p>
           For general PEFS information:
-          <a href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>.
+          <a data-cms-email="contact_email" href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>.
         </p>
         <p>The Society Constitution and Bylaws are available via internal resources and through PEFS on request.</p>
       </div>
@@ -427,11 +388,11 @@
         <div class="contact-footer">
           <div class="contact-footer-item">
             <h4>Email</h4>
-            <a href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>
+            <a data-cms-email="contact_email" href="mailto:fitnesscentre@gov.bc.ca">fitnesscentre@gov.bc.ca</a>
           </div>
           <div class="contact-footer-item">
             <h4>Board Contact</h4>
-            <a href="mailto:darcy.dragseth@gov.bc.ca">darcy.dragseth@gov.bc.ca</a>
+            <a data-cms-email="board_email" href="mailto:darcy.dragseth@gov.bc.ca">darcy.dragseth@gov.bc.ca</a>
           </div>
           <div class="contact-footer-item">
             <h4>Locations</h4>
@@ -502,6 +463,52 @@
         }
       });
     });
+  </script>
+
+  <!-- ======================================================
+       CMS CONTENT LOADER — reads content/site.yml (edited in Pages CMS)
+  ====================================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script>
+    (function () {
+      function esc(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/\n/g, '<br>');
+      }
+      function setHTML(id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; }
+
+      fetch('content/site.yml?v=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+        .then(function (text) {
+          var d = jsyaml.load(text) || {};
+
+          setHTML('cms-hero-title', esc(d.hero_title).replace(/\. /g, '.<br>'));
+          setHTML('cms-hero-text', esc(d.hero_text));
+          setHTML('cms-announcement', esc(d.announcement));
+          setHTML('cms-about', marked.parse(d.about || ''));
+
+          setHTML('cms-memberships', (d.memberships || []).map(function (m) {
+            return '<div class="membership-card"><h4>' + esc(m.name) + '</h4>' +
+                   '<div class="membership-price" style="font-size:1.4rem;">' + esc(m.price) + '</div>' +
+                   '<p>' + esc(m.details) + '</p></div>';
+          }).join(''));
+
+          setHTML('cms-board-year', esc(d.board_year) + ' Board of Directors');
+          setHTML('cms-board', (d.board || []).map(function (b) {
+            return '<li><span>' + esc(b.name) + '</span><span class="role">' + esc(b.role) + '</span></li>';
+          }).join(''));
+
+          document.querySelectorAll('[data-cms-email]').forEach(function (a) {
+            var v = d[a.getAttribute('data-cms-email')];
+            if (v) { a.href = 'mailto:' + v; a.textContent = v; }
+          });
+        })
+        .catch(function (err) {
+          console.error('Could not load content/site.yml:', err);
+        });
+    })();
   </script>
 
 </body>
