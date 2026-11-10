@@ -1,6 +1,8 @@
-hero_title: Stronger. Together.
-hero_text: PEFS promotes fitness and wellness activities for BC provincial employees through education, communication, and programs.
-announcement: New! Provincial employees can now choose Membership or Pay Per Use options. See Membership below or visit our booking site.
+hero_title: Stronger. Together. TEST
+hero_text: PEFS promotes fitness and wellness activities for BC provincial
+  employees through education, communication, and programs.
+announcement: New! Provincial employees can now choose Membership or Pay Per Use
+  options. See Membership below or visit our booking site.
 about: >-
   The **Canadian Physical Activity Guidelines** state that adults aged 18–64
   should accumulate at least **150 minutes of moderate- to vigorous-intensity
@@ -19,10 +21,12 @@ about: >-
 memberships:
   - name: Full Membership — Facilities & Classes
     price: ~$20.98 biweekly
-    details: $19.98 biweekly plus taxes. Includes access to any/all PEFS facilities and unlimited access to scheduled studio classes at 1515 Blanshard.
+    details: $19.98 biweekly plus taxes. Includes access to any/all PEFS facilities
+      and unlimited access to scheduled studio classes at 1515 Blanshard.
   - name: Equipment-Use — 4000 Seymour
     price: ~$16.78 biweekly
-    details: $15.98 biweekly plus taxes. Includes access to 4000 Seymour for equipment use only (classes not included).
+    details: $15.98 biweekly plus taxes. Includes access to 4000 Seymour for
+      equipment use only (classes not included).
 board_year: 2024/2025
 board:
   - name: Darcy Dragseth
